@@ -18,7 +18,7 @@ public class LearningApplication {
 	public static void main(String[] args) {
 		BCryptPasswordEncoder bcrypt = new BCryptPasswordEncoder();
 		System.out.println(bcrypt.encode("gopi"));
-		System.out.println(bcrypt.encode("krishna"));
+		//System.out.println(bcrypt.encode("krishna"));
 		SpringApplication.run(LearningApplication.class, args);
 	}
 
